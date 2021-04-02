@@ -1,0 +1,11 @@
+---
+application:
+  name: "angular-auth-oidc-client"
+  project: "auth-oidc"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-angular-auth-oidc-client"
+  routes:
+  - application_name: "angular-auth-oidc-client"
+    paths:
+    - "/*"
